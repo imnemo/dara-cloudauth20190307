@@ -1,0 +1,26 @@
+{
+  "scope": "alibabacloud",
+  "name": "CloudAuth20190307",
+  "version": "0.0.1",
+  "main": "cloudauth.dara",
+  "maintainers": [
+    {
+      "name": "imnemo",
+      "email": "oncoding@qq.com"
+    }
+  ],
+  "libraries": {
+    "RPC": "alibabacloud:RPC:*",
+    "Util": "darabonba:Util:*",
+    "RPCUtil": "alibabacloud:RPCUtil:*",
+    "EndpointUtil": "alibabacloud:EndpointUtil:*"
+  },
+  "releases": {
+    "java": "com.aliyun:cloudauth20190307:0.0.1",
+    "go": "github.com/alibabacloud-go/ecs-20140526/client:v0.0.1",
+    "csharp": "AlibabaCloud.SDK.cloudauth20190307:0.0.1",
+    "ts": "@alicloud/cloudauth20190307:0.0.1",
+    "php": "alibabacloud/ecs-20140526:0.0.1",
+    "python": "alibabacloud_cloudauth20190307:0.0.1"
+  }
+}
